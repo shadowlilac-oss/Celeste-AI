@@ -18,7 +18,7 @@ Our service frontend is ran on windows however our backends are ran on linux, in
 
 
 
-⚠️ **These passages also mostly handle self-hosting on your local machine, you can substitute a lot of these systems with a third-party service should the costs be too much, as hardware can get extremely expensive... a example of this [is my current hardware](../faq#whats-your-current-current-hardware), you can get away with less but you'll also be slower should you do that, speaking of... consider [helping me out!](https://github.com/Celeste-AI/Celeste-AI/tree/main?tab=readme-ov-file#%EF%B8%8F-consider-helping-us-out-%EF%B8%8F) as this stuff is expensive, and I'd gladly appreciate any help even if you can only spread the word of my creation.**
+⚠️ **These passages also mostly handle self-hosting on your local machine, you can substitute a lot of these systems with a third-party service should the costs be too much, as hardware can get extremely expensive... a example of this [is my current hardware](../faq#whats-your-current-hardware), you can get away with less but you'll also be slower should you do that, speaking of... consider [helping me out!](https://github.com/Celeste-AI/Celeste-AI/tree/main?tab=readme-ov-file#%EF%B8%8F-consider-helping-us-out-%EF%B8%8F) as this stuff is expensive, and I'd gladly appreciate any help even if you can only spread the word of my creation.**
 
 #
 
@@ -146,5 +146,3 @@ We also run a few conditional checks to make sure an account is a valid "friend"
 ---
 ---
 ---
-**Copyright © 2022-2025 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
-

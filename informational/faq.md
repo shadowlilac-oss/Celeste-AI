@@ -35,7 +35,7 @@ If Celeste doesn't seem to be making sense, sometimes saying "reset" may put her
 
 Otherwise mentions of this just wastes my time and causes unnecessary stress.
 
-## WHATS YOUR CURRENT CURRENT HARDWARE?
+## WHATS YOUR CURRENT HARDWARE?
 * (1x) RTX 4090 GIGABYTE OC
 * (1x) RTX 3090 ASUS STRIX OC
 * (1x) AMD Ryzen 9 7950x3D
@@ -84,8 +84,7 @@ Celeste-AI is a LLM that can be a bit unpredictable at times, whilst we may be a
 
 ## ARE YOU THE GOVERNMENT?
 We are a community-driven initiative that operates independently from any government organization. While we strive to create an enjoyable environment where humor is shared, it is important to note that we do not have any affiliations or governance by official bodies.
----
----
----
-**Copyright © 2022-2025 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
 
+---
+---
+---

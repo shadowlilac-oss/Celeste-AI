@@ -24,7 +24,7 @@ Under specific situations this system can have its effects cancelled early.
 #
 
 # [ALL CURRENT EVENTS POSSIBLE]
-## [InferenceEvent]
+## [Inference]
 <img src="../../informational/resources/eventdemo/inferencing.gif"/>
 
 #
@@ -44,17 +44,17 @@ Animation changes if she fails a inference request, until a outcome is decided.
 * **[RESPONDED]** ✅
 in this situaton she will generate a textual split if neccessary and calculate the proper emotions ahead of time, this also includes applying memory of what the user said and or what she has responded with, she will also start the tts-voice-pregeneration process in the background.
 
->**[RETURNS]**: **SpeakEvent**
+>**[RETURNS]**: **Speak**
 #
 * **[FILTERED]**  ❎
 She has determined that what the person talking to her said is "toxic" and has filtered it, she will proceed to warn the system to combine the audio and visual buffer into a video file and warn the moderators of our service.
->**[RETURNS]**: **ToxicityEvent**
+>**[RETURNS]**: **Toxicity**
 #
 * **[FAILED-TO-RESPOND]**  ❎
-Seems celeste was not able to generate a proper response due to failing too many times.
->**[RETURNS]**: **FailedGenerationEvent**
+Seems celeste was not able to generate a proper response due to failing too many times, usually because she broke her own filter or did not meet minimal requirements in her responses.
+>**[RETURNS]**: **FailedGeneration**
 
-## [ToxicityEvent]
+## [Toxicity]
 <img src="../../informational/resources/eventdemo/toxicity.gif"/>
 
 #
@@ -68,7 +68,7 @@ Informs to the user she will not respond to them regarding their query, also inf
 
 >**[RETURNS]**: **None**
 
-## [FailedGenerationEvent]
+## [FailedGeneration]
 <img src="../../informational/resources/eventdemo/failedgenerate.gif"/>
 
 #
@@ -101,7 +101,7 @@ For more information about the emotional system [click here](../pages/emotions.m
 
 >**[RETURNS]**: **None**
 
-## [TookToLongEvent]
+## [TookToLong]
 <img src="../../informational/resources/eventdemo/took_too_long.gif"/>
 
 #
@@ -113,7 +113,7 @@ For more information about the emotional system [click here](../pages/emotions.m
 Inform user they need to hurry the fuck up, and gives you random one-liners to let you know how annoying you are.
 
 >**[RETURNS]**: **None**
-## [FriendRequestEvent]
+## [FriendRequest]
 <img src="../../informational/resources/eventdemo/friend.gif"/>
 
 #
@@ -129,8 +129,8 @@ also giving a quippy remark depending on how many were added.
 
 >**[RETURNS]**: **Friendship & Love**
 
-
-## [PlaySoundEvent]
+#
+## [PlaySound]
 <img src="../../informational/resources/eventdemo/playsound.gif"/>
 
 #
@@ -142,23 +142,44 @@ also giving a quippy remark depending on how many were added.
 Visual helper that celeste runs when a sound command is ran.
 
 >**[RETURNS]**: **None**
+#
 
-## [ForceWipeEvent]
-<img src="../../informational/resources/eventdemo/forcewipe.gif"/>
+## [Ramble]
+<img src="../../informational/resources/eventdemo/speaking.gif"/>
 
 #
 **[CONDITIONS]**:
-* Moderation team member action.
+* 🎲 **Selected randomly while idling.**
+
 #
 **[WHAT DOES THIS DO?]**:
 
-Visual indicator that a moderator has forced celeste to nuke her current memory block, cancels most other events, and interrupts her in idle/listening/recording state.
+Randomly self inference itself, with a randomized topic, remembers what its talking about so it can be questioned about it if you so choose.
 
->**[RETURNS]**: **A fresh new celeste!**
+>**[RETURNS]**: **None**
+#
 
+## [randomMove]
+<img src="../../informational/resources/eventdemo/randomMove.png"/>
+
+#
+**[CONDITIONS]**:
+* ⚠️ **Disabled if there is no pathfinding grid.**
+* 🎲 **Selected randomly while idling.**
+
+#
+**[WHAT DOES THIS DO?]**:
+
+Requests a **AMPath** from the [**AMWALKER system**](../pages/traversal.md) randomly selecting a spot to move to.
+
+* Chooses to randomly select a specialnode on the map, and has a slight chance to look for the furthest instead.
+
+* Will randomly decide to walk, crouch, or run to its destination.
+
+* If already at a special node, excludes it from random selection.
+
+>**[RETURNS]**: **None**
 
 ---
 ---
 ---
-**Copyright © 2022-2025 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
-

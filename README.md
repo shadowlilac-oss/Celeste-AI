@@ -29,7 +29,7 @@ To use our service properly follow these easy steps!
 
 # 🗺️ INFORMATION NEXUS 🗺️
 
-* By using our service you automatically agree to our [Terms of Service.](./informational/TOS.md) 📝
+* By using our service you automatically agree to our [Terms of Service.](./TOS.md) 📝
 
 * You **MUST** respect our [Terms of Use](./informational/rules.md) as well. 📚
 
@@ -37,8 +37,18 @@ To use our service properly follow these easy steps!
 
 * Interested in more specific details of Celeste? [check this out!](./informational/howsheworks.md) 🤓
 
+# 
+# 👀 NEW UPDATE COMING SOON?👀
+
+Currently we're on a small break for new updates, but we already have plans for some new ones created, here is one of them.
+
+[<img src="./informational/resources/teaser.png">](https://x.com/REOPERATORR/status/2011290958823141844)
+
+(click picture to see teaser)
+
 ---
 ---
 ---
-**Copyright © 2022-2025 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
+**Copyright © 2022-2026 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
+
 

@@ -16,7 +16,7 @@ This system was particularly painful to implement, however through sheer determi
 
 # Establishing Core Data
 
-One of the slightly more complex systems is the AMWalker system. It acts as a translation layer between VRChat and our local software, allowing for extremely precise and semi-custom implementation of [A*](https://www.youtube.com/watch?v=CgW0HPHqFE8), which, while it doesn't always guarantee the fastest possible route, usually it provides one of the fastest and can generate routes insanely quick.
+One of the slightly more complex systems is the AMWalker system. It acts as a translation layer between VRChat and its local software, allowing for extremely precise and semi-custom implementation of [A*](https://www.youtube.com/watch?v=CgW0HPHqFE8), which, while it doesn't always guarantee the fastest possible route, usually provides one of the fastest and can generate routes insanely quick.
 
 However, the information required to perform these calculations (such as precise position and rotation) is not currently available by default on VRChat, meaning normally this isn't easy or even possible to calculate.
 
@@ -60,7 +60,7 @@ As mentioned we currently implement a semi custom implementation of [A*](https:/
 
 However A* isn't the only way to do this, just it seems to be the most practical in most cases for VRChat bots as of writing this. **(If this ever changes call me :>)**
 
-⚠️ **[Dijkstra is another possible algorithm you can use, but tends to be way more slower and inefficient.](https://www.youtube.com/watch?v=9REexHx0hDY)**
+⚠️ **[Dijkstra is another possible algorithm you can use, but tends to be way more slower and inefficient for this particular usecase.](https://www.youtube.com/watch?v=9REexHx0hDY)**
 
 For these kinds of creations, you want your path generation to be as fast as possible and using anything else whilst not disallowed, is highly discourged and bad practice for this usecase, you're basically nerfing your creation, whilst A* is not always guranteed to be the absolute fastest, its kind of a perfect balance between speed and power, and in most cases it is the fastest.
 
@@ -89,10 +89,11 @@ Using all this data, we now have enough to start having our creation move. We se
 
 This creates the effect of Celeste-AI 'stopping' while turning, whilst it also enhances both stability and visual smoothness.
 
+* **As of 3.1.0 normalized velocity is factored in to dynamically adjust the math in real time.**
+
 #
 <img src="../../informational/resources/pathingdemo/pathingdemo.gif"/>
 
 ---
 ---
 ---
-**Copyright © 2022-2025 OPPEYSTORE. All rights reserved. The brand name 'OPPEYSTORE', its logos, and associated visual representations are protected by copyright. The underlying code powering Celeste-AI, including any proprietary AI models utilized, are owned by their respective creators, and their rights are acknowledged. No part of the OPPEYSTORE brand, including its name, logos, models, or code, may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of OPPEYSTORE.**
