@@ -28,15 +28,6 @@ Got a question? You should [join my discord!](https://discord.gg/RpqunvvNNF)
 ---
 ---
 ---
-⭐
-[<img src="../informational/resources/shadowlilac.png">](https://x.com/shadowlilac_ai)
-
-* DISCORD: shadow_lilac
-* DISCORD-ID: 713112666377551952
-
----
----
----
 
 ⭐
 [<img src="../informational/resources/flonky.png">](https://flky.dev/)
